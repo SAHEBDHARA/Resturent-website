@@ -29,7 +29,8 @@
     display: flex;
     margin: 10px;
     background: #e63946;
-    width: 20px;
+    color: #f1faee;
+    width: 25px;
     justify-content: center;
     border-radius: 10px;
   }

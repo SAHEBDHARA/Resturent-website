@@ -1,11 +1,13 @@
-import Navbar from "./components/Navbar/Navbar"
-function App() {
+import { Fragment } from 'react';
 
+import Header from './components/Layout/Header';
+
+function App() {
   return (
-    <>
-    <Navbar/>
-    </>
-  )
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 }
 
-export default App
+export default App;
