@@ -1,7 +1,7 @@
 
-# Resturent Food Order App
+# Restaurant Food Order App
 
-Welcome to the README file for the Resturent App project developed using React. This document provides an overview of the project, installation instructions, usage guidelines, and other relevant information.
+Welcome to the README file for the Restaurant App project developed using React. This document provides an overview of the project, installation instructions, usage guidelines, and other relevant information.
 
 
 
