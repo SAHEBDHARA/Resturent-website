@@ -47,7 +47,6 @@ const AvailableMeals = () => {
        <Card>
         <ul>{mealsList}</ul>
       </Card>
-      
     </section>
   );
 };

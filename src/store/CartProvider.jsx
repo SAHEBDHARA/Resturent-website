@@ -6,6 +6,8 @@ const defaultCartState = {
   totalAmount: 0,
 };
 const cartReducer = (state, action) => {
+
+  
   if (action.type === "ADD") {
     const newTotalAmount =
       state.totalAmount + action.item.price * action.item.amount;
@@ -31,6 +33,8 @@ const cartReducer = (state, action) => {
       totalAmount: newTotalAmount,
     };
   }
+
+
   if(action.type === 'REMOVE'){
     const existingCartIndex = state.items.findIndex(
       (item) => item.id === action.id
@@ -52,6 +56,9 @@ const cartReducer = (state, action) => {
   }
   return defaultCartState;
 };
+
+
+
 
 const CartProvider = (props) => {
   const [cartState, dispatchCartAction] = useReducer(
