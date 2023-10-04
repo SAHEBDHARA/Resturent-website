@@ -1,4 +1,6 @@
 import { Fragment } from 'react';
+import { Link } from 'react-router-dom';
+
 
 import HeaderCartButton from './HeaderCartButton';
 import mealsImage from '../../assets/meals.jpg';
@@ -9,7 +11,13 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
+        <Link to='/' style={{ textDecoration: 'none', color: 'white' }}>
         <h1>ReactMeals</h1>
+        </Link>
+        
+      <Link to="/about" style={{ textDecoration: 'none', color: 'white' }}>
+       <div>About</div>
+      </Link>
         <HeaderCartButton onClick ={props.noShowHanderler}/>
       </header>
       <div className={classes['main-image']}>
